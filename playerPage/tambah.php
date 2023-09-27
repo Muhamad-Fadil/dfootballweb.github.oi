@@ -121,7 +121,7 @@
                     </form>
                     <?php
 
-                    include('../koneksi.php');
+                    include('../koneksi/koneksi.php');
 
                     if (isset($_POST['submit'])) {
                         $nama = $_POST['nam_player'];

@@ -99,7 +99,7 @@
                             <tbody>
                                 <?php
 
-                                include('../koneksi.php');
+                                include('../koneksi/koneksi.php');
                                 $datas = mysqli_query($koneksi, "SELECT * FROM `player` WHERE 1") or die(mysqli_error($koneksi));
                                 $no = 1;
 

@@ -34,7 +34,7 @@
                 </form>
                 <?php
 
-                include('../koneksi.php');
+                include('../koneksi/koneksi.php');
 
                 if (isset($_POST['submit'])) {
                     $logo = $_POST['logo'];

@@ -98,7 +98,7 @@
                             <tbody>
                                 <?php
 
-                                include('../koneksi.php');
+                                include('../koneksi/koneksi.php');
                                 $datas = mysqli_query($koneksi, "SELECT * FROM club;") or die(mysqli_error($koneksi));
                                 $no = 1;
 

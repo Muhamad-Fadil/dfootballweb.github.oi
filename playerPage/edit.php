@@ -19,7 +19,7 @@
             <div class="card-body">
                 <?php
 
-                include('../koneksi.php');
+                include('../koneksi/koneksi.php');
 
                 $id = $_GET['id'];
 

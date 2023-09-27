@@ -97,7 +97,7 @@
                             <tbody>
                                 <?php
 
-                                include('../koneksi.php');
+                                include('../koneksi/koneksi.php');
                                 $datas = mysqli_query($koneksi, "SELECT player.id, player.nam_player, player.age, player.position_id, position.id, position.position
                                 FROM player, position
                                 WHERE player.position_id=position.id;") or die(mysqli_error($koneksi));

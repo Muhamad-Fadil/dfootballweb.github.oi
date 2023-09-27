@@ -100,7 +100,7 @@
                             <tbody>
                                 <?php
 
-                                include('../koneksi.php');
+                                include('../koneksi/koneksi.php');
                                 $datas = mysqli_query($koneksi, "SELECT * FROM player 
                                 LEFT JOIN club ON player.club_id = club.id 
                                 LEFT JOIN position ON player.position_id = position.id 

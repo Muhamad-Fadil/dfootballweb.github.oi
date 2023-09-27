@@ -99,7 +99,7 @@
                             <tbody>
                                 <?php
 
-                                include('../koneksi.php');
+                                include('../koneksi/koneksi.php');
                                 $datas = mysqli_query($koneksi, "SELECT player.id, player.nam_player, player.age, player.rating_id, overall.id, 
                                 overall.rating, overall.potency
                                 FROM player LEFT JOIN overall
