@@ -19,9 +19,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $_SESSION["username"] = $username;
         header("Location: ../homePage/index.php"); // Ganti dengan halaman selamat datang
     } else {
-        echo "<script>alert('Username dan Password Anda Salah');window.location='login.php';</script>";
+        echo "<script>alert('Username dan Password Anda Salah');window.location='../login.php';</script>";
     }
 
     $mysqli->close();
 }
-?>
